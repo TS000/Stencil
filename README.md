@@ -8,6 +8,8 @@ Stencil so quick. Instead of serving requests one at a time like the PHP backed 
 ### Handlebars
 Take this example:
 
+*/templates/components/pages/home.html*
+
 ```javascript
 <div class="main full">
 
