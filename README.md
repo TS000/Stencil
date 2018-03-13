@@ -3,7 +3,7 @@ A handbook for those working in Big Commerce Stencil.
 
 ## Intro
 Stencil is a platform, written in javascript, for selling things. The asynchronous nature of Node.js is what makes 
-Stencil so quick. Instead of serving requests one at a time like the PHP backed Blueprint did, Stencil is able to serve requests in a parallistic manner. Stencil uses Handlebars.js to bring data to the DOM. Why this is great is that handlebars can be broken up into components which can be reused.
+Stencil so quick. Instead of serving requests one at a time like the PHP backed Blueprint did, Stencil is able to serve requests in a parallistic manner. Stencil uses Handlebars.js to bring data to the DOM. Handlebars is great because our code can be broken up into components which can be reused.
 
 ### Handlebars
 Take this example:
