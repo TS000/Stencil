@@ -26,7 +26,8 @@ This is an example of a **pages** file. Page files are where we combine componen
 
 Let's look at `{{> components/common/top-ctas }}`.
 
-What Handlebars is doing here is pulling the file contents of "top-ctas" for use anywhere the script `{{> components/common/top-ctas }}` is placed. Here's a little file tree to help you understand the path of the file that is being pulled:
+What Handlebars is doing here is pulling the file contents of "top-ctas" for use anywhere the script 
+`{{> components/common/top-ctas }}` is placed. Here's a little file tree to help you understand the path of the file that is being pulled:
 
 ```
 └─── templates
