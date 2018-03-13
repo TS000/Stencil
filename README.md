@@ -26,21 +26,21 @@ This is an example of a **pages** file. Page files are where we combine componen
 
 Let's look at `{{> components/common/top-ctas }}`.
 
-What Handlebars is doing here is pulling the file contents of "top-ctas" for use anywhere the script is placed. Another way to look at this is to understand the path of the file that is being pulled:
+What Handlebars is doing here is pulling the file contents of "top-ctas" for use anywhere the script `{{> components/common/top-ctas }}` is placed. Here's a little file tree to help you understand the path of the file that is being pulled:
 
 ```
-├── templates
-│   ├── components
-│   │   ├── common
-│   │   |── banner.html
-│   │   ├── brands.html
-│   │   ├── category.html
-│   │   ├── store-info.html
-│   │   └── top-ctas.html
-│   ├── layout
-│   │   ├── base.html
-│   └── pages
-│       └── home.html
+└─── templates
+    ├── components
+    │   └── common
+    │   	|── banner.html
+    │   	├── brands.html
+    │   	├── category.html
+    │   	├── store-info.html
+    │   	└── top-ctas.html
+    ├── layout
+    │   ├── base.html
+    └── pages
+        └── home.html
 
 ```
 This powerful feature allows us to create reusable content that can be placed anywhere on our site. Write once, reuse.
