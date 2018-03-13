@@ -43,4 +43,8 @@ What Handlebars is doing here is pulling the file contents of "top-ctas" for use
 ```
 This powerful feature allows us to create reusable content that can be placed anywhere on our site. Write once, reuse.
 
-The way this feature should be used is to create a modular set of components (header, footer, ctas, bannders, etc.) which can then be shared and used over multiple projects. As time and use of Stencil continues, the library of components will increase, creating a library of quickly implemented code. 
+The way this feature should be used is to create a modular set of components (header, footer, ctas, bannders, etc.) which can then be shared and used over multiple projects. As the use of Stencil continues, the library of components will increase, thus creating a library of quickly implemented code.
+
+### Styles
+
+Styling in Stencil is through the use of Foundation 5 variables.  
